@@ -12,5 +12,5 @@ fn main(){
     blackbox.shuffle(&mut seed);
     let lambda = String::from_utf8(blackbox.to_vec()).unwrap();
 
-    println!("{:?}", lambda);
+    println!("{}", lambda);
 }
