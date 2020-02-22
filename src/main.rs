@@ -1,4 +1,3 @@
-#[warn(unused_imports)]
 use rand::seq::SliceRandom;
 use std::env;
 
